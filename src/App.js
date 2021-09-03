@@ -3,7 +3,6 @@ import DetailsForm from "./DetailsForm";
 
 function App() {
   const [formData, setForm ] = React.useState([]);
-  var formSubmit = false;
   function submitForm(data) {
     setForm(data);
   }
